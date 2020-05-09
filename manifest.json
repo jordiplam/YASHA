@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "YASHA",
+	"description": "Yet Another Sci-Hub Add-on. Opens current webpage in Sci-Hub.",
+	"version": "0.1",
+	"author": "Jordi Pla", 
+	"homepage_url": "https://github.com/jordiplam/yasha",
+	"icons": {
+		"48": "icons/yasha-48.png"
+	},
+	"background": {
+		"scripts": ["yasha.js"]
+	},
+	"browser_action": {
+		"default_icon": "icons/yasha-48.png"
+	},
+	"permissions": [
+		"activeTab"
+	]
+}

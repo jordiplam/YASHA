@@ -1,0 +1,15 @@
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs
+*.log
+
+# Environment variables file
+.env
+
+# Web-ext build folder
+web-ext-artifacts/

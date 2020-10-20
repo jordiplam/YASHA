@@ -3,7 +3,7 @@
  * Requires "activeTag" permision to access the URL of the current tab.
 */
 
-const SCIHUB_URL = "https://sci-hub.tw"
+const SCIHUB_URL = "https://sci-hub.st"
 
 /*
  * If the Browser API is not defined, alias the Chrome API to the Browser API.

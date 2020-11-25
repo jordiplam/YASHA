@@ -3,7 +3,7 @@
  * Requires "activeTag" permision to access the URL of the current tab.
 */
 
-const SCIHUB_URL = "https://sci-hub.st"
+const SCIHUB_URL = "https://sci-hub.do"
 
 /*
  * If the Browser API is not defined, alias the Chrome API to the Browser API.
@@ -17,7 +17,7 @@ if (typeof browser === "undefined") {
  * Log error message if an asynchronous operation fails.
  */
 function onError(error) {
-  console.log(`Error: ${error}`);
+	console.log(`Error: ${error}`);
 }
 
 /*
